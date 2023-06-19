@@ -6,12 +6,11 @@
 
 h1 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .dspl {
     display: block;
-    background-color: blue;
     width: 50%;
     margin: auto;
     text-align: center;
@@ -20,4 +19,35 @@ h1 {
 .btn {
     width: 10em;
     height: 10em;
+    cursor: pointer;
+}
+
+.btn1 {
+    --color: red;
+    background-color: var(--color);
+}
+
+.btn2 {
+    --color: green;
+    background-color: var(--color);
+}
+
+.btn3 {
+    --color: blue;
+    background-color: var(--color);
+}
+
+.btn4 {
+    --color: yellow;
+    background-color: var(--color);
+}
+
+.btn5 {
+    --color: white;
+    background-color: var(--color);
+}
+
+.btn6 {
+    --color: orange;
+    background-color: var(--color);
 }
