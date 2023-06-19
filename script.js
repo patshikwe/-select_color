@@ -9,7 +9,7 @@ for (const btn of btns) {
         const buttunBackgroundColor = buttonColor["backgroundColor"];
         document.body.style.backgroundColor = buttunBackgroundColor;
         const btnNumber = btn.innerHTML;
-        paragraph.innerHTML = `This is button number ${btnNumber}.`;
+        paragraph.innerHTML = `This is button number ${btnNumber}`;
         paragraph.style.textAlign = 'center';
         paragraph.style.fontSize = "20px";
         paragraph.style.marginTop = "10px";
