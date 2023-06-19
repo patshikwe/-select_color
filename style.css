@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.dpl-grid {
+    display: grid;
+}
+
 h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -20,34 +24,29 @@ h1 {
     width: 10em;
     height: 10em;
     cursor: pointer;
+    background-color: var(--color);
 }
 
 .btn1 {
     --color: red;
-    background-color: var(--color);
 }
 
 .btn2 {
     --color: green;
-    background-color: var(--color);
 }
 
 .btn3 {
     --color: blue;
-    background-color: var(--color);
 }
 
 .btn4 {
     --color: yellow;
-    background-color: var(--color);
 }
 
 .btn5 {
     --color: white;
-    background-color: var(--color);
 }
 
 .btn6 {
     --color: orange;
-    background-color: var(--color);
 }
